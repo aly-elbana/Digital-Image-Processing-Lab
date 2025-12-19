@@ -1,5 +1,15 @@
-streamlit
-opencv-python
-numpy
-Pillow
-openai
+# Core web framework
+streamlit>=1.28.0
+
+# Image processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# AI/ML (for assistant - OpenAI-compatible API client)
+openai>=1.0.0
+
+# Data visualization (for histograms)
+matplotlib>=3.7.0

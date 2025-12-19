@@ -15,6 +15,9 @@ Thumbs.db
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+*.pyc
+.Python
 
 # Virtual environments
 venv/
@@ -57,6 +60,7 @@ dist/
 ########################################
 # Images / Generated media
 ########################################
+# Ignore images except in specific directories
 *.png
 *.jpg
 *.jpeg
@@ -64,6 +68,16 @@ dist/
 *.bmp
 *.tiff
 *.webp
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Allow images in examples or docs folders
+!images/examples/
+!docs/images/
+!*.example.png
+!*.example.jpg
 
 ########################################
 # Node.js
@@ -138,3 +152,27 @@ build/
 .mypy_cache/
 .pyre/
 .ruff_cache/
+*.bak
+*.orig
+*.rej
+*~
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Model files (if any)
+*.pkl
+*.h5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# API keys and secrets (additional patterns)
+*.key
+*.pem
+secrets.json
+config.json
+local_settings.py
