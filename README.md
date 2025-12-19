@@ -60,7 +60,7 @@ python -m venv .venv
 
    On Windows:
    ```bash
-   .venv\Scripts\activate
+   source .venv/Scripts/activate
    ```
 
    On Linux/Mac:
