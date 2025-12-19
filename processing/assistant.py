@@ -2,7 +2,6 @@ from utils.rag_knowledge import KNOWLEDGE_BASE, SYSTEM_PROMPT
 from openai import OpenAI
 from utils.state_manager import get_messages
 
-
 BASE_URL = 'http://localhost:11434/v1'
 MODEL = 'qwen2.5:3b'
 

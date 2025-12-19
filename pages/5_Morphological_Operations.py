@@ -26,7 +26,6 @@ def main() -> None:
         st.warning("Please go back to the main page and upload an image first.")
         return
 
-    # Use the latest processed image if it exists; otherwise, start from original.
     working_image = processed if processed is not None else original
 
     st.markdown("### Kernel and Iterations Settings")

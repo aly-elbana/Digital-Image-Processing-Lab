@@ -1,4 +1,3 @@
-
 KNOWLEDGE_BASE = {
     "home": "### Home Page (Main Entry Point)\n- **Purpose**: Image upload and global comparison view\n- **Features**:\n  - Upload images (PNG, JPG, JPEG, WEBP formats)\n  - View original vs processed image side-by-side\n  - Reset to original image\n  - Download processed image as PNG\n- **Workflow**: Users must upload an image here first before accessing processing pages",
     "upload": "### Home Page (Main Entry Point)\n- **Purpose**: Image upload and global comparison view\n- **Features**:\n  - Upload images (PNG, JPG, JPEG, WEBP formats)\n  - View original vs processed image side-by-side\n  - Reset to original image\n  - Download processed image as PNG\n- **Workflow**: Users must upload an image here first before accessing processing pages",

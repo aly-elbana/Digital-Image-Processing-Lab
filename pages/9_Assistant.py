@@ -9,7 +9,6 @@ def main() -> None:
     if not get_messages():
         set_messages([])
 
-
     for msg in get_messages():
         role = "assistant" if msg["role"] == "bot" else msg["role"]
         with st.chat_message(role):
