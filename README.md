@@ -59,20 +59,21 @@ python -m venv .venv
 3. **Activate the virtual environment**
 
    On Windows:
-   for git bash
-   ```bash
-   source .venv/Scripts/activate
-   ```
    
-   for powershell
-    ```bash
-   .venv\Scripts\Activate.ps1
-   ```
-    
-   for cmd
-    ```bash
-   .venv\Scripts\activate.bat
-   ```
+      for git bash
+      ```bash
+      source .venv/Scripts/activate
+      ```
+      
+      for powershell
+       ```bash
+      .venv\Scripts\Activate.ps1
+      ```
+       
+      for cmd
+       ```bash
+      .venv\Scripts\activate.bat
+      ```
     
    On Linux/Mac:
    ```bash
