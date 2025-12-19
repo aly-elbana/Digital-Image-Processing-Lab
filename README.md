@@ -48,7 +48,7 @@ An interactive web application built with **Streamlit** that provides a comprehe
 1. **Clone the repository**
 ```bash
 git clone <repository-url>
-cd image_processing_app
+cd Digital-Image-Processing-Lab
 ```
 
 2. **Create a virtual environment (recommended)**
