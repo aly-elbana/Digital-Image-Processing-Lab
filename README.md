@@ -63,13 +63,12 @@ python -m venv .venv
    source .venv/Scripts/activate
    ```
 
-   On Windows:   
-   for Windows powershell
+   On Windows PowerShell:   
     ```bash
    .venv\Scripts\Activate.ps1
    ```
     
-   for Windows cmd
+   On Windows CMD:   
     ```bash
    .venv\Scripts\activate.bat
    ```
