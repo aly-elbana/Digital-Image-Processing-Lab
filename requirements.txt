@@ -1,5 +1,5 @@
 # Core web framework
-streamlit>=1.28.0
+streamlit==1.52.2
 
 # Image processing
 opencv-python>=4.8.0
