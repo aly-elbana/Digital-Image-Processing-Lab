@@ -1,0 +1,140 @@
+########################################
+# OS files
+########################################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+########################################
+# Python
+########################################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+########################################
+# Jupyter Notebook
+########################################
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+########################################
+# Streamlit
+########################################
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+########################################
+# Logs & temp files
+########################################
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+########################################
+# Images / Generated media
+########################################
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+########################################
+# Node.js
+########################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+########################################
+# Frontend build
+########################################
+dist/
+build/
+out/
+
+########################################
+# VS Code
+########################################
+.vscode/
+!.vscode/extensions.json
+
+########################################
+# PyCharm / JetBrains
+########################################
+.idea/
+*.iml
+
+########################################
+# Environment variables
+########################################
+.env
+.env.*
+
+########################################
+# Coverage / testing
+########################################
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+########################################
+# Docker
+########################################
+*.env
+docker-compose.override.yml
+
+########################################
+# C / C++
+########################################
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+build/
+
+########################################
+# Misc
+########################################
+.cache/
+.mypy_cache/
+.pyre/
+.ruff_cache/
