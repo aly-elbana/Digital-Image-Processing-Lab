@@ -78,7 +78,7 @@ python -m venv .venv
    source .venv/bin/activate
    ```
 
-5. **Install dependencies**
+4. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
